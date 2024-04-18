@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+   background: rgb(168, 170, 45);
+    background: linear-gradient(90deg, rgb(137, 178, 24) 0%, rgb(42, 90, 29) 61%, rgba(6, 187, 54, 0.896)100%);
+    height: 100px;
+}
+
+.hero{
+  background-color:rgb(118, 199, 118) ;
+    
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  background-color: rgba(92, 86, 86, 0.329);
+z-index: 1;
+}
+
+
+.contact{
+    height: 80vh;
+    width: 100%;
+  background: rgb(158, 95, 116);
+  background: linear-gradient(90deg, rgb(233, 195, 233) 0%, rgb(135, 92, 106) 61%, rgba(146, 71, 118, 0.472)100%);
+ 
+}
+
+.icon{
+
+height: 250px;
+width: 250px;
+position: fixed;
+right: -10px;
+bottom: -50px;
+}

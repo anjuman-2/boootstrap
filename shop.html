@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body class="hero" >
+ <!-- NAVBAR -->
+ <header>
+
+ <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container-fluid">
+        <i class="bi bi-yelp fs-1"></i>
+      <a class="navbar-brand" href="#">Flower Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#service">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+              <li><a class="dropdown-item" href="#occassion">Occassions</a></li>
+              <li><a class="dropdown-item" href="#birthday">Birthday</a></li>
+              <li><a class="dropdown-item" href="#wedding">Wedding</a></li>
+              <li><a class="dropdown-item" href="#office">Office</a></li>
+              <li><a class="dropdown-item" href="#delivery">Delivery</a></li> 
+            <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#review">Review</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <i class="bi bi-cart-plus-fill fs-1 text-light"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<!-- carosusel -->
+
+<main>
+
+
+    <section id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/flowerpexel.jpg" class=" w-100 vh-100" alt="">
+            <div class="carousel-caption text-light z-3 h-75 flex-column d-flex justify-content-center align-items-center">
+              <h2 class="bd-head">SAY IT WITH FLOWERS</h2>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/flowerpex2.jpg" class=" w-100 vh-100 object-fit-cover" alt="">
+            <div class="carousel-caption  h-75 flex-column d-flex justify-content-center align-items-center text-dark z-3">
+              <h2>QUALITY FIRST</h2>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/flower3.jpg" class=" vh-100 w-100 object-fit-cover" alt="">
+            <div class="carousel-caption text-light z-3  h-75 flex-column d-flex justify-content-center align-items-center">
+              <h2>FOR EVERY OCCASION</h2>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      
+    </section>
+
+    <!-- ABOUT US -->
+
+    <section id="service" name="service" class="bg-light m-5">
+
+      <div class="container py-5">
+        <div class="row align-items-center gy-3">
+      <div class="col-md-6">
+        <video src="video/How to make a Flower Bouquet_ Tutorial With Flowers Bouquet _ Floweraura bouquet Ideas.mp4"controls class="w-100 object-fit-cover"></video>
+      
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-dark">ABOUT US</h2>
+        <hr color="black" size="10">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga libero eius dolorem tenetur? Et, quidem neque Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusamus! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.</P>
+      
+        <a href="#" class="btn btn-warning">Learn More</a>
+      </div>
+        </div>
+      </div>
+      </section>
+
+<!-- SHOP -->
+    <section id="shop">
+
+<div class="container mt-5 ">
+    <div class="row d-flex justify-content-center">
+      <div class="container text-center text-light">
+      <h1> SHOP YOUR HAPPINESS</h1> 
+      </div>
+        
+            <div class="card m-2" style="width: 18rem;">
+                <img src="image/p1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p>200$</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                 
+              </div>
+        </div>
+   
+
+   
+        <div class="card m-2" style="width: 18rem;">
+            <img src="image/p2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>200$</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+             
+          </div>
+    </div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p3.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p5.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p6.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p7.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/p8.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p9.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p10.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/p11.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/p12.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+</div>
+
+    </section>
+
+
+
+    <!-- contact -->
+
+
+    <section id="contact" class="contact">
+
+        <div class="container mt-5">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Your Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Your Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Your Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+        
+                <button type="submit" class="btn btn-danger"><i class="fas fa-paper-plane"></i> Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+
+<!-- occassion -->
+
+
+<section id="occassion">
+
+
+
+  <div class="container mt-5 bg-light ">
+
+    <div class="container text-center text-dark">
+      <h1> OCCASSION'S</h1> 
+      </div>
+        
+    <div class="row d-flex justify-content-center ">
+        
+            <div class="card m-2" style="width: 18rem;">
+                <img src="image/birthday.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">BIRTHDAY</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p>200$</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                 
+              </div>
+        </div>
+   
+
+   
+        <div class="card m-2" style="width: 18rem;">
+            <img src="image/wedding.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">WEDDING</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>200$</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+             
+          </div>
+    </div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/office.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+</section>
+
+
+
+
+<!-- BIRTHDAY -->
+
+<section id="birthday">
+
+  <div class="container mt-5 bg-secondary ">
+
+    <div class="container text-center text-light">
+      <h1>BIRTHDAY</h1> 
+      </div>
+        
+
+    <div class="row d-flex justify-content-center">
+        
+            <div class="card m-2" style="width: 18rem;">
+                <img src="image/b1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">BIRTHDAY</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p>200$</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                 
+              </div>
+        </div>
+   
+
+   
+        <div class="card m-2" style="width: 18rem;">
+            <img src="image/b3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">BIRTHDAY</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>200$</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+             
+          </div>
+    </div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b5.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b6.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b7.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b8.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/b9.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b10.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b11.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/b12.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/b13.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+
+<!-- WEDDING -->
+
+
+<section id="wedding">
+
+  <div class="container mt-5 bg-danger ">
+
+    <div class="container text-center text-light">
+      <h1> WEDDING</h1> 
+      </div>
+        
+    <div class="row d-flex justify-content-center">
+        
+            <div class="card m-2" style="width: 18rem;">
+                <img src="image/w1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">WEDDING</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p>200$</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                 
+              </div>
+        </div>
+   
+
+   
+        <div class="card m-2" style="width: 18rem;">
+            <img src="image/w2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">WEDDING</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>200$</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+             
+          </div>
+    </div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w3.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w5.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w6.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w7.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/w8.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w9.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w10.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/w11.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/w12.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">WEDDING</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+</div>
+</div>
+
+</section>
+
+
+<!-- OFFICE -->
+
+<section id="office">
+
+  <div class="container mt-5 bg-light">
+
+    <div class="container text-center text-dark">
+      <h1>OFFICE</h1> 
+      </div>
+        
+    <div class="row d-flex justify-content-center">
+        
+            <div class="card m-2" style="width: 18rem;">
+                <img src="image/o1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">OFFICE</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p>200$</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                 
+              </div>
+        </div>
+   
+
+   
+        <div class="card m-2" style="width: 18rem;">
+            <img src="image/o2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">OFFICE</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>200$</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+             
+          </div>
+    </div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/o3.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/o4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/o5.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/o6.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/o7.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;" >
+        <img src="image/o8.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+
+
+    <div class="card m-2" style="width: 18rem;">
+        <img src="image/o9.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">OFFICE</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>200$</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+         
+      </div>
+</div>
+
+
+</div>
+</div>
+
+
+</section>
+
+<!-- DELIVERY -->
+
+<section id="delivery">
+
+  <div class="container mt-5">
+
+  <img src="image/vertical-poster-or-banner-delivery-courier-rides-on-bicycle-delivering-orders-fast-free-safe-deliverytemplate-layout-delivery-modern-design-vec-2ETNPMC.jpg" alt="">
+
+</div>
+</section>
+
+
+
+
+<!-- REVIEWS -->
+
+
+
+  <section id="review">
+    <div class="row d-flex justify-content-center mt-5">
+      <div class="col-md-10 col-xl-8 text-center">
+        <h3 class="mb-4">Review's</h3>
+        <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+          numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+          quisquam eum porro a pariatur veniam.
+        </p>
+      </div>
+    </div>
+  
+    <div class="row text-center">
+      <div class="col-md-4 mb-5 mb-md-0">
+        <div class="d-flex justify-content-center mb-4">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+            class="rounded-circle shadow-1-strong" width="150" height="150" />
+        </div>
+        <h5 class="mb-3">Maria Smantha</h5>
+        <h6 class="text-primary mb-3">Web Developer</h6>
+        <p class="px-xl-3">
+          <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+          tenetur.
+        </p>
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-5 mb-md-0">
+        <div class="d-flex justify-content-center mb-4">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+            class="rounded-circle shadow-1-strong" width="150" height="150" />
+        </div>
+        <h5 class="mb-3">Lisa Cudrow</h5>
+        <h6 class="text-primary mb-3">Graphic Designer</h6>
+        <p class="px-xl-3">
+          <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
+          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+        </p>
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-0">
+        <div class="d-flex justify-content-center mb-4">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+            class="rounded-circle shadow-1-strong" width="150" height="150" />
+        </div>
+        <h5 class="mb-3">John Smith</h5>
+        <h6 class="text-primary mb-3">Marketing Specialist</h6>
+        <p class="px-xl-3">
+          <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio
+          dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+        </p>
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-warning"></i>
+          </li>
+          <li>
+            <i class="far fa-star fa-sm text-warning"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+
+</main>
+
+<footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+  <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+    <div class="row">
+      <div class="col-lg-3 mb-3">
+        <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/" aria-label="Bootstrap">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"/></svg>
+          <span class="fs-5">Bootstrap</span>
+        </a>
+        <ul class="list-unstyled small">
+          <li class="mb-2">Designed and built with all the love in the world by the <a href="https://getbootstrap.com/docs/5.3/about/team/">Bootstrap team</a> with the help of <a href="https://github.com/twbs/blog/graphs/contributors">our contributors</a>.</li>
+          <li class="mb-2">Code licensed <a href="https://github.com/twbs/blog/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="https://getbootstrap.com/">Home</a></li>
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/">Docs</a></li>
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/">Examples</a></li>
+          <li class="mb-2"><a href="https://icons.getbootstrap.com/">Icons</a></li>
+          <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
+          <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+          <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap">Swag Store</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Guides</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/">Getting started</a></li>
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/starter-template/">Starter template</a></li>
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/webpack/">Webpack</a></li>
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/parcel/">Parcel</a></li>
+          <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/vite/">Vite</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Projects</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Community</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+          <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+          <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+          <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- whatsup -->
+
+<section>
+<div class="icon">
+  <div style="display: flex; justify-content: center; align-items: center;  " class="ctc-analytics">
+    <p class="ctc-analytics ctc_cta ctc_cta_stick ht-ctc-cta  ht-ctc-cta-hover " style="padding: 0px 16px; line-height: 1.6; font-size: 15px; background-color: rgb(37, 211, 102); color: rgb(255, 255, 255); border-radius: 10px; margin: 0px 10px; order: 0; display: none;">WhatsApp us</p>
+    <svg style="pointer-events:none; display:block; height:50px; width:50px;" width="50px" height="50px" viewBox="0 0 1024 1024">
+        <defs>
+        <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"></path>
+        </defs>
+        <linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
+            <stop offset="0" stop-color="#61fd7d"></stop>
+            <stop offset="1" stop-color="#2bb826"></stop>
+        </linearGradient>
+        <use xlink:href="#htwasqicona-chat" overflow="visible" style="fill: url(#htwasqiconb-chat)" fill="url(#htwasqiconb-chat)"></use>
+        <g>
+            <path style="fill: #FFFFFF;" fill="#FFF" d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z"></path>
+        </g>
+        </svg></div>
+      </div>
+</section>
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
